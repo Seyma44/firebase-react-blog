@@ -1,3 +1,13 @@
+# Firebase Bootstrap React Project
+This is a simple project built with Firebase, Bootstrap and React that allows you to quickly create and manage data in a web application. The project uses Firebase to store and retrieve data, and React to render the user interface. The Bootstrap framework is used for styling the components.
+
+![Studio_Project (9)](https://user-images.githubusercontent.com/3766249/232646000-b962bc2f-f8a6-4546-a27f-5466ddfb20a7.gif)
+
+https://user-images.githubusercontent.com/3766249/232646007-b0dd645c-6cbe-4b0e-bc24-948f45099b10.mp4
+
+https://user-images.githubusercontent.com/3766249/232646079-d2766a33-5dc7-460c-822a-e9c98d435271.mp4
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -13,6 +23,20 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+# Firebase Configuration
+This project uses Firebase to store and retrieve data. To configure Firebase for your project, you'll need to create a Firebase project and add the configuration details to a .env file in the root of your project directory.
+
+The .env file should look something like this:
+
+```
+REACT_APP_API_KEY="your_api_key_here"
+REACT_APP_AUTH_DOMAIN="your_auth_domain_here"
+REACT_APP_PROJECT_ID="your_project_id_here"
+REACT_APP_STORAGE_BUCKET="your_storage_bucket_here"
+REACT_APP_MESSAGING_SENDER_ID="your_messaging_sender_id_here"
+REACT_APP_APP_ID="your_app_id_here"
+```
 
 ### `npm test`
 
